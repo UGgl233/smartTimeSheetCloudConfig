@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: user-server
+
+server:
+  port: 5201
+  
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
