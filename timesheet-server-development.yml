@@ -15,3 +15,8 @@ management:
     web:
       exposure:
         include: "*"
+
+timesheet:
+  exchange: TimeSheetExchange
+  queue: TimeSheetCreatorQueue
+  routingkey: timeSheetCreatorKey
